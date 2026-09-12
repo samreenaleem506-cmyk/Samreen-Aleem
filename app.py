@@ -51,7 +51,7 @@ elif select == "Players Analysis":
         st.plotly_chart (fig, use_container_width=True)
 
     with col2:
-        st.plotly_chart (fig_pie, use_container_widthh=True)
+        st.plotly_chart (fig_pie, use_container_width=True)
 
 elif select == "Country insights":
     st.title ("Country Wise Cricket Analysis")
